@@ -8,11 +8,11 @@ RUN npm cache verify
 
 RUN npm install
 
+COPY . .
+
 RUN npm run tsc
 
 RUN npm run build
-
-COPY . .
 
 EXPOSE 3000
 
