@@ -13,25 +13,31 @@
 - Dynamic multiple webrtc peer connections
 
 ## Usage:
+> Linux users could use `v4l2loopback` to create multiple virtual devices to test multiple connections.
+> for archlinux [v4l2loopback](https://wiki.archlinux.org/title/V4l2loopback)
 
 ### with docker
 
 1- build image
-> docker build -t ($image_name) .
-
+```console
+docker build -t ($image_name) .
+```
 2- run container
-> docker run --name ($container_name) -v $(pwd):/app -d -p 3000:3000 ($image_name)
+```console
+docker run --name ($container_name) -v $(pwd):/app -d -p 3000:3000 ($image_name)
+```
 
 ### without docker
 
 1- install dependencies
-- npm i
-
+```console
+npm i
+```
 2- run server without watching
-- npm run up
-
+```console
+npm run up
+```
 2- run server with watching
-- npm run up-dev
-
-
-Linux users could use v4l2loopback to create multiple virtual devices to test multiple connections
+```console
+npm run up-dev
+```
