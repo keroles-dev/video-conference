@@ -1,8 +1,5 @@
 node_modules
-src
 Dockerfile
 .env
 preview.gif
 README.md
-tsconfig.json
-webpack.config.js
