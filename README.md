@@ -20,11 +20,11 @@
 
 1- build image
 ```console
-docker build -t ($image_name) .
+docker build -t $(image_name) .
 ```
 2- run container
 ```console
-docker run --name ($container_name) -v $(pwd):/app -d -p 3000:3000 ($image_name)
+docker run --name $(container_name) -v $(pwd):/app -d -p 3000:3000 $(image_name)
 ```
 
 ### without docker
