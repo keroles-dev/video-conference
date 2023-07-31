@@ -33,11 +33,19 @@ docker run --name $(container_name) -v $(pwd):/app -d -p 3000:3000 $(image_name)
 ```console
 npm i
 ```
-2- run server without watching
+2- compile tsc
+```console
+npm run tsc
+```
+3- webpack build
+```console
+npm run build
+```
+4- run server without watching
 ```console
 npm run up
 ```
-2- run server with watching
+4- run server with watching
 ```console
 npm run up-dev
 ```
