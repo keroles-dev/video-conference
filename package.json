@@ -4,7 +4,7 @@
   "description": "pure node js video and audio conference app using [websocket, webRTC]",
   "private": true,
   "scripts": {
-    "up": "node dist/server.js",
+    "up": "tsc & webpack & node dist/server.js",
     "up-dev": "tsc -w & webpack --watch & nodemon dist/server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "tsc": "tsc",
