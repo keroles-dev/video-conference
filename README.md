@@ -41,3 +41,5 @@ npm run up
 ```console
 npm run up-dev
 ```
+
+<img src="preview.gif" width="600"/>
