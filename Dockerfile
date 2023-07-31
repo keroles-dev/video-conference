@@ -4,15 +4,9 @@ WORKDIR /app
 
 COPY package.json .
 
-RUN npm cache verify
-
 RUN npm install
 
 COPY . .
-
-RUN npm run tsc
-
-RUN npm run build
 
 EXPOSE 3000
 
