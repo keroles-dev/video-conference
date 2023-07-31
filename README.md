@@ -13,8 +13,8 @@
 - Dynamic multiple webrtc peer connections
 
 ## Usage:
-> Linux users could use `v4l2loopback` to create multiple virtual devices to test multiple connections.
-> for archlinux [v4l2loopback](https://wiki.archlinux.org/title/V4l2loopback)
+> Linux users could use `v4l2loopback` to create multiple virtual devices to test multiple connections.<br/>
+> For archlinux [v4l2loopback](https://wiki.archlinux.org/title/V4l2loopback)
 
 ### with docker
 
