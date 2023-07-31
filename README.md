@@ -24,7 +24,7 @@ docker build -t $(image_name) .
 ```
 2- run container
 ```console
-docker run --name $(container_name) -v $(pwd):/app -d -p 3000:3000 $(image_name)
+docker run --name $(container_name) -d -p 3000:3000 $(image_name)
 ```
 
 ### without docker
@@ -41,13 +41,9 @@ npm run tsc
 ```console
 npm run build
 ```
-4- run server without watching
+4- run server
 ```console
 npm run up
-```
-4- run server with watching
-```console
-npm run up-dev
 ```
 
 <img src="preview.gif" width="600"/>
