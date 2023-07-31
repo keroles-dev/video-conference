@@ -8,9 +8,9 @@ RUN npm cache verify
 
 RUN npm install
 
-RUN npm tsc
+RUN npm run tsc
 
-RUN npm build
+RUN npm run build
 
 COPY . .
 

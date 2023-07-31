@@ -2,7 +2,6 @@
   "name": "pure_node_js_streaming_app",
   "version": "1.0.0",
   "description": "pure node js video and audio conference app using [websocket, webRTC]",
-  "private": true,
   "scripts": {
     "up": "tsc & webpack & node dist/server.js",
     "up-dev": "tsc -w & webpack --watch & nodemon dist/server.js",
