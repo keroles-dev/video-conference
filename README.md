@@ -16,7 +16,7 @@
 > Linux users could use `v4l2loopback` to create multiple virtual devices to test multiple connections.<br/>
 > For archlinux [v4l2loopback](https://wiki.archlinux.org/title/V4l2loopback)
 
-### with docker
+### With docker
 
 1- build image
 ```console
@@ -27,7 +27,7 @@ docker build -t $(image_name) .
 docker run --name $(container_name) -d -p 3000:3000 $(image_name)
 ```
 
-### without docker
+### Without docker
 
 1- install dependencies
 ```console
