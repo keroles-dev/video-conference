@@ -220,7 +220,7 @@ function addVideo(socketId: string | undefined, stream: MediaStream) {
     video.srcObject = stream;
 
     if (socketId) video.setAttribute('id', socketId);
-    else video.muted = true; // i don't like my voice :)
+    else video.muted = true; // i like the echo but not this time :)
 
     video.addEventListener('loadedmetadata', () => {
         video.play()
