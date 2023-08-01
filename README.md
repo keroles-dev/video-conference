@@ -1,4 +1,4 @@
-# simple pure nodejs video and audio conference app
+#Simple pure node js video and voice conferencing
 
 ## Techs:
 
@@ -10,7 +10,7 @@
 
 ## Features:
 
-- Dynamic multiple webrtc peer connections
+- Dynamic webrtc multiple connections
 
 ## Usage:
 > Linux users could use `v4l2loopback` to create multiple virtual devices to test multiple connections.<br/>
