@@ -1,5 +1,5 @@
 # Simple pure node js video and voice conferencing
-> [Live demo](https://16.16.58.75/)
+> [Live demo](https://ec2-16-16-58-75.eu-north-1.compute.amazonaws.com/)
 
 ## Techs:
 
