@@ -47,6 +47,3 @@ npm run build
 ```console
 npm run up
 ```
-
-
-<img src="preview.gif" width="600"/>
