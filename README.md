@@ -5,7 +5,7 @@
 ## Techs:
 
 - Websocket
-- WebRTC [native without any plugin]
+- Native WebRTC
 - Typescript
 - webpack
 - Docker
